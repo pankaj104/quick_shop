@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_margin="40dp">
+    <TableRow
+        android:background="#8fe879">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Code No"
+        android:layout_weight="4"
+        android:textColor="@color/white"
+        android:padding="10sp"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        />    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_weight="4"
+        android:textColor="@color/white"
+        android:padding="10sp"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:layout_weight="4"
+            android:textColor="@color/white"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:layout_weight="4"
+            android:textColor="@color/white"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/dialog_codeno"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:padding="10sp"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dialog_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="4"
+            android:padding="10sp"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dialog_price"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="3"
+            android:padding="10sp"
+
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <EditText
+     android:text="1"
+     android:inputType="number"
+     android:id="@+id/dialog_edittext"
+     android:layout_weight="4"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:padding="10sp"
+     android:textSize="14sp"
+     android:layout_gravity="center_horizontal"
+     android:textColor="@color/black">
+
+ </EditText>
+
+    </TableRow>
+
+</TableLayout>
+
+
+</RelativeLayout>

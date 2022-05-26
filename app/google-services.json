@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "570236928915",
+    "project_id": "zeroq-2b3aa",
+    "storage_bucket": "zeroq-2b3aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570236928915:android:f5947d5618dea298139e66",
+        "android_client_info": {
+          "package_name": "com.example.zeroq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570236928915-o6ol0ro0hjr4vfp6vv9pmm393p4nbbsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCaYvwNKjlID5uNH-G9ctko2uJ9n0qkqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570236928915-o6ol0ro0hjr4vfp6vv9pmm393p4nbbsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
