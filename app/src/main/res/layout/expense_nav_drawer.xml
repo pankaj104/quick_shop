@@ -71,6 +71,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:text="Expense Graph"
+        android:background="#EFD6D6"
         android:drawableLeft="@drawable/ic_expense_graph"
         android:drawablePadding="10dp"
         android:padding="12dp"

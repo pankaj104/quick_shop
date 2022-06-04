@@ -87,6 +87,7 @@
             android:textSize="14sp" />
  <EditText
      android:text="1"
+
      android:inputType="number"
      android:id="@+id/dialog_edittext"
      android:layout_weight="4"

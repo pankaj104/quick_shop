@@ -56,6 +56,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Home"
+        android:background="#EFD6D6"
         android:drawableLeft="@drawable/ic_home"
         android:drawablePadding="10dp"
         android:textColor="@color/black"
