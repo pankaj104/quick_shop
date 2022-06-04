@@ -61,7 +61,7 @@ TextView textView,total_amt;
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main2);
 
-    textView = findViewById(R.id.textView);
+  //  textView = findViewById(R.id.textView);
 
 
 

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/white"
-    android:layout_margin="40dp">
+    android:layout_margin="10dp">
     <TableRow
         android:background="#8fe879">
     <TextView
@@ -31,7 +31,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Price"
+            android:text="Price (₹)"
             android:layout_weight="4"
             android:textColor="@color/white"
             android:padding="10sp"

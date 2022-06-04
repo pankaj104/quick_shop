@@ -32,10 +32,15 @@
         <entry key="..\:/Users/Mohammed Taher/AndroidStudioProjects/ZeroQ/app/src/main/res/layout/nav_header.xml" value="0.22" />
         <entry key="..\:/Users/Mohammed Taher/AndroidStudioProjects/ZeroQ/app/src/main/res/layout/scanner.xml" value="0.13043478260869565" />
         <entry key="..\:/Users/Mohammed Taher/AndroidStudioProjects/ZeroQ/app/src/main/res/menu/drawer_menu.xml" value="0.1578125" />
+        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/drawable/back.xml" value="0.1" />
+        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/drawable/button_shape_rounded.xml" value="0.1715" />
+        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/drawable/ffff.xml" value="0.1715" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/drawable/ic_back.xml" value="0.1715" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/drawable/ic_base_menu_redblack.xml" value="0.1715" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1715" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1715" />
+        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/drawable/ic_logout.xml" value="0.1715" />
+        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/drawable/ic_menu.xml" value="0.1715" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1715" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1715" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/drawable/ic_person.xml" value="0.1715" />
@@ -44,18 +49,21 @@
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/activity_list_products.xml" value="0.2203125" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/activity_login.xml" value="0.2203125" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/activity_main.xml" value="0.2203125" />
-        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/activity_main2.xml" value="0.2203125" />
+        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/activity_main2.xml" value="0.5" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/activity_scan_screen.xml" value="0.2203125" />
+        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/activity_shortcart.xml" value="0.2203125" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/activity_siginorlogin.xml" value="0.2203125" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/activity_signin_demo.xml" value="0.18" />
-        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/activity_signup.xml" value="0.2203125" />
+        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/activity_signup.xml" value="0.18" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/dialog_product.xml" value="0.2203125" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/dialog_productlist.xml" value="0.2203125" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/expense_nav_drawer.xml" value="0.2203125" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/graph_toolbar.xml" value="0.2203125" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/main_nav_drawer.xml" value="0.22" />
         <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/main_toolbar.xml" value="0.2203125" />
-        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/mylayout.xml" value="0.2203125" />
+        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/layout/mylayout.xml" value="0.25" />
+        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1715" />
+        <entry key="..\:/Users/panka/Desktop/Final year project/Taher/Barcode_scanner-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1715" />
       </map>
     </option>
   </component>

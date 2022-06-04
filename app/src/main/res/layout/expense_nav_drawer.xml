@@ -2,13 +2,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     android:layout_height="match_parent">
     <ImageView
         android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/quickshop_head">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:layout_margin="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_margin="10dp"
         android:onClick="clicklogo"
-        android:src="@drawable/person">
+        android:src="@drawable/profilepic">
 
     </ImageView>
 
@@ -16,22 +25,26 @@
         android:id="@+id/expense_Nav_Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:text="Name:"
+        android:padding="4dp"
+        android:text="Name: "
         android:textColor="@color/black"
-        android:textSize="20dp"
-        android:textStyle="bold" />
+        android:drawableLeft="@drawable/ic_name"
+        android:drawablePadding="10dp"
+        android:textSize="15dp"
+        />
 
     <TextView
         android:id="@+id/expense_Nav_Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:padding="12dp"
-        android:text="Email:"
+        android:padding="4dp"
+        android:text="Email: "
         android:textColor="@color/black"
-        android:textSize="20dp"
-        android:textStyle="bold" />
+        android:textSize="15dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        />
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -43,10 +56,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Home"
+        android:drawableLeft="@drawable/ic_home"
+        android:drawablePadding="10dp"
         android:textColor="@color/black"
-        android:textStyle="bold"
         android:padding="12dp"
         android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/Expenses_graph"
+        android:layout_width="match_parent"
+
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Expense Graph"
+        android:drawableLeft="@drawable/ic_expense_graph"
+        android:drawablePadding="10dp"
+        android:padding="12dp"
         />
 
     <View
@@ -57,11 +84,18 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+        <TextView
+            android:id="@+id/nav_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="20dp"
+            android:padding="12dp"
+            android:drawableLeft="@drawable/ic_logout"
+            android:textColor="@color/black"
+            android:drawablePadding="10dp"
+
+            />
 
     </LinearLayout>
-
-
-
-
-
 </LinearLayout>

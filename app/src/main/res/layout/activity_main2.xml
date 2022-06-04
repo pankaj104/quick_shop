@@ -9,13 +9,35 @@
     tools:context=".MainActivity2">
 
     <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:text="My Cart"
+
+            android:drawableStart="@drawable/cart"
+            android:drawablePadding="5dp"
+
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+
+    <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="1dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="10dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/listview"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,8 +51,15 @@
             android:layout_margin="20dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Name"
-            android:textColor="#000000" />
+            android:textStyle="bold"
+            android:text="Product"
+            android:textSize="15sp"
+
+            android:textColor="#B17204" />
+
+
+
+
 
         <TextView
             android:id="@+id/textView8"
@@ -39,8 +68,10 @@
             android:layout_margin="20dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="price"
-            android:textColor="#000000" />
+            android:text="Price(₹)"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#B17204" />
 
         <TextView
             android:id="@+id/textView9"
@@ -49,8 +80,10 @@
             android:layout_margin="20dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="code No"
-            android:textColor="#000000" />
+            android:text="Code No"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#B17204" />
 
         <TextView
             android:id="@+id/textView6"
@@ -60,9 +93,12 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="Quantity"
-            android:textColor="#000000" />
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#B17204" />
 
     </LinearLayout>
+
 
     <ListView
         android:id="@+id/listview"
@@ -71,6 +107,7 @@
         android:layout_marginBottom="13dp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
@@ -78,51 +115,56 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="10dp"
-        android:text="pay"
+        android:background="#D58A09"
+        android:text="Pay Now"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/listview" />
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
         android:layout_marginBottom="8dp"
+        android:background="#D58A09"
+
+        android:drawableLeft="@drawable/scan"
+
         android:text="scan"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent" />
-
-
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
         android:gravity="center"
-        android:text="0"
+        android:text="0.00"
         android:textColor="@color/black"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.855"
-        app:layout_constraintStart_toEndOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/listview" />
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.972" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="21dp"
-        android:text="Total Amount:"
-
+        android:text="Total Amount: ₹"
+        android:textSize="15sp"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView10"
-        app:layout_constraintHorizontal_bias="0.721"
-        app:layout_constraintStart_toEndOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/listview"
-        app:layout_constraintVertical_bias="0.571" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

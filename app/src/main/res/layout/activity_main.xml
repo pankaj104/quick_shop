@@ -4,46 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0BE7F5"
+    android:background="#DDFBFD"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="225dp"
-        android:layout_height="178dp"
-        android:layout_marginTop="144dp"
+        android:layout_width="362dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="272dp"
         android:foregroundGravity="center"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/rectangle" />
+        app:srcCompat="@drawable/quickshoplogo" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="227dp"
-        android:layout_height="83dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/akaya_telivigala"
-        android:gravity="center"
-        android:text="ZeroQ"
-        android:textColor="#000000"
-        android:textSize="60sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.576"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="349dp"
-        android:layout_height="54dp"
-        android:fontFamily="@font/alatsi"
-        android:gravity="center"
-        android:text="No More Queue"
-        android:textColor="#000000"
-        android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.741"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
